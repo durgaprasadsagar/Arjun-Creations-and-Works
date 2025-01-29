@@ -1,0 +1,82 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://durgaprasadsagar.github.io/Arjun-Creations-Works/",
+            "url": "https://durgaprasadsagar.github.io/Arjun-Creations-Works/",
+            "name": "Home - Arjun Creations & Works",
+            "isPartOf": {
+                "@id": "https://durgaprasadsagar.github.io/Arjun-Creations-Works/#website"
+            },
+            "about": {
+                "@id": "https://durgaprasadsagar.github.io/Arjun-Creations-Works/#organization"
+            },
+            "datePublished": "2023-11-07T06:03:50+00:00",
+            "dateModified": "2023-11-14T04:51:19+00:00",
+            "breadcrumb": {
+                "@id": "https://durgaprasadsagar.github.io/Arjun-Creations-Works/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "ReadAction",
+                    "target": [
+                        "https://durgaprasadsagar.github.io/Arjun-Creations-Works/"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://durgaprasadsagar.github.io/Arjun-Creations-Works/#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home"
+                }
+            ]
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://durgaprasadsagar.github.io/Arjun-Creations-Works/#website",
+            "url": "https://durgaprasadsagar.github.io/Arjun-Creations-Works/",
+            "name": "Arjun Creations & Works",
+            "description": "",
+            "publisher": {
+                "@id": "https://durgaprasadsagar.github.io/Arjun-Creations-Works/#organization"
+            },
+            "potentialAction": [
+                {
+                    "@type": "SearchAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://durgaprasadsagar.github.io/Arjun-Creations-Works/?s={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                }
+            ],
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://durgaprasadsagar.github.io/Arjun-Creations-Works/#organization",
+            "name": "Arjun Creations & Works",
+            "url": "https://durgaprasadsagar.github.io/Arjun-Creations-Works/",
+            "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://durgaprasadsagar.github.io/Arjun-Creations-Works/#/schema/logo/image/",
+                "url": "creation&work-log.png",
+                "contentUrl": "creation&work-log.png",
+                "width": 1578,
+                "height": 500,
+                "caption": "Arjun Creations & Works"
+            },
+            "image": {
+                "@id": "https://durgaprasadsagar.github.io/Arjun-Creations-Works/#/schema/logo/image/"
+            }
+        }
+    ]
+}
